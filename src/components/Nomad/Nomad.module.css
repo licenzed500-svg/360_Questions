@@ -1,0 +1,110 @@
+
+@font-face {
+    font-family: "Lato";
+    src: local('Lato'),
+        url(..//..//fonts/Lato/Lato-Light.ttf) format('truetype');
+        font-weight: normal;
+}
+
+.nav {
+    background: -webkit-linear-gradient(90deg,#494552,#535463); /* Chrome 10-25, Safari 5.1-6 */ background: rgb(74, 74, 95); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Lato';
+    font-style: normal;
+    mix-blend-mode: normal;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin-left: 5%;
+    
+    
+
+}
+
+.name{
+    letter-spacing: 2px;
+    margin: 2vw 2vw 5vw 2vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+  
+    
+
+}
+.channel {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    margin: 0 2vw 0 2vw;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+   
+    
+
+}
+
+.friend {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    margin:  5vw 2vw 0 2vw ;
+    color: #fffcfc;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;    
+    text-transform: uppercase;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.channels {
+    letter-spacing: 1px;
+    color: #e0d1d1;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0;
+    text-decoration: none;
+}
+.channels li {
+    text-decoration: none;
+    border-radius:7px ;
+    padding: 7px;
+    margin: 0 1vw 0 1vw;
+    color:#e0d1d1;
+    
+}
+.channels li:hover { 
+    color: #FFFFFF;
+    background-color: rgba(67, 42, 42, 0.2);
+}
+.friends {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ff0000;
+    list-style-type: none;
+    padding: 0;
+    
+    
+    
+
+}
+
+.friends li { 
+   
+    margin: 0 1vw 0 1vw;
+    border-radius:7px ;
+    padding: 7px;
+}
+.friends li:hover { 
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.2);
+}

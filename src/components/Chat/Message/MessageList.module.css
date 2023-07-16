@@ -1,0 +1,42 @@
+
+:root {
+    --main-color: #5ea3d0;
+    --secondary-color: white;
+    --main-text-color: #3e5869;
+    --secondary-text-color: #b0c7d6;
+    --send-message-form: #F5F5F5;
+}
+
+.message {
+    margin: 7px 0;
+}
+
+.message div:nth-child(1) {
+    font-size: 11px;
+    color: var(--main-text-color);
+    opacity: 0.9;
+    margin-bottom: 6px;
+}
+.message div:nth-child(2) {
+    background: var(--main-color);
+    color: var(--secondary-color);
+    display: inline;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.messageList {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 0 0 6px;
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(90deg,#494552,#535463); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#3c3b50,#2d3741); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

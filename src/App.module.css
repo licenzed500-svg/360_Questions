@@ -1,0 +1,27 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: flex;
+    
+    
+
+}
+html{
+
+
+    background-color: rgb(74, 74, 95);
+}
+@font-face {
+    font-family: "Lato";
+    src: local('Lato'),
+        url(./fonts/Lato/Lato-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+
+.wrapper {
+    font-family: "Lato";
+    display: flex;
+    min-height: 100vh;
+}

@@ -1,0 +1,32 @@
+
+:root {
+    --main-color: #5ea3d0;
+    --secondary-color: white;
+    --main-text-color: #3e5869;
+    --secondary-text-color: #b0c7d6;
+    --send-message-form: #f5efef;
+}
+
+.sendMessageForm {
+    background: var(--send-message-form);
+    display: flex;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.sendMessageForm input {
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    margin: 0;
+    background: var(--send-message-form);
+    font-weight: 200;
+}
+
+.sendMessageForm input:focus {
+    outline-width: 0;
+}
+
+.sendMessageForm input::placeholder {
+    color: black;
+}
